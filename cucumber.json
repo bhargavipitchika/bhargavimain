@@ -1,0 +1,38 @@
+{
+    "default": {
+        "dryRun": false,
+"resultsDir": "allure-results",
+
+        
+        
+    "tags": "@method2",
+       
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "PlaywrightAutomationCode/FeatureFiles/**/*.feature"
+        ],
+        "require": [
+            "PlaywrightAutomationCode/StepDefinition/**/*.ts"
+            
+        ],
+        "requireModule": [
+            "ts-node/register"
+        ],
+        "format": [
+            "progress-bar",
+            "html:test-result/cucumber-report.html",
+            "json:test-result/cucumber-report.json",
+            "rerun:@rerun.txt",
+            "allure-cucumberjs/reporter"
+
+        ]
+        
+
+        
+    }
+
+    
+}
+

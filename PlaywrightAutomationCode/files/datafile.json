@@ -1,0 +1,22 @@
+{
+    "data1":{
+    "name":"bhargavi",
+    "email":"bhargavi@gmail.com",
+    "phone" : "89754322",
+    "addres" : "hyderabad"
+
+},
+"data2":{
+    "name":"Prashvita",
+    "email":"prashviai@gmail.com",
+    "phone" : "897543222",
+    "addres" : "chennai"
+
+},"data3":{
+    "name":"suresh",
+    "email":"suresh@gmail.com",
+    "phone" : "897543224",
+    "addres" : "Pune"
+
+}
+}
